@@ -1,4 +1,3 @@
-
 var routerApp = angular.module('routerApp',["ui.router"]);
 alert("here"+routerApp);
 routerApp.config(function($stateProvider, $urlRouterProvider) {
