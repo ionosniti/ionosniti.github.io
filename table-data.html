@@ -10,8 +10,8 @@
     <tbody>
 
     <tr ng-repeat="scotch in scotches">
-        <td>{{ scotch.name }}</td>
-        <td>${{ scotch.price }}</td>
+        <td ng-click="sort('name')">{{ scotch.name }}</td>
+        <td ng-click="sort('price')">${{ scotch.price }}</td>
     </tr>
 
     </tbody>

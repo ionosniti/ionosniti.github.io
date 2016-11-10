@@ -61,4 +61,8 @@ routerApp.controller('scotchController', function($scope) {
         }
     ];
 
+    $scope.sort = function (val) {
+        alert(val);
+
+    }
 });
