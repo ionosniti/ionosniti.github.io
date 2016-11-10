@@ -42,7 +42,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
 
 });
 
-routerApp.controller('scotchController', function($scope) {
+routerApp.controller('scotchController', function($scope,$filter) {
 
     $scope.message = 'test';
 
@@ -62,7 +62,7 @@ routerApp.controller('scotchController', function($scope) {
     ];
 
     $scope.sort = function (val) {
-        alert(val);
+        $scope.scotches = $filter('orderBy')($scope.scotches,val);
 
     }
 });
