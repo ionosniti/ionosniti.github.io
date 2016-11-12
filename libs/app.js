@@ -48,16 +48,16 @@ routerApp.controller('scotchController', function($scope,$filter) {
 
     $scope.scotches = [
         {
-            name: 'Macallan 12',
-            price: 50
+            'name-test': 'Macallan 12',
+            'price-test': 50
         },
         {
-            name: 'Chivas Regal Royal Salute',
-            price: 10000
+            'name-test': 'Chivas Regal Royal Salute',
+            'price-test': 10000
         },
         {
-            name: 'Glenfiddich 1937',
-            price: 20000
+            'name-test': 'Glenfiddich 1937',
+            'price-test': 20000
         }
     ];
 
