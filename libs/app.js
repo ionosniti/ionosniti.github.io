@@ -38,7 +38,12 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
                 }
             }
 
-        });
+        })
+        .state('contact',{
+            url:'/contact',
+            templateUrl:'contactus.html'
+        })
+    ;
 
 });
 
